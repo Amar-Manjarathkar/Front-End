@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Page</title>
+</head>
+<body>
+
+
+    <!--This is the header-->
+    <Header align="center">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#section1">Types Of Cats</a>
+            <a href="#section2">Big Cats</a>
+            <a href="#section3">Cat Form</a>
+            <a href="#section4">Tiger Reserves</a>
+          </nav>
+    </Header>
+
+
+    <!--This is the main/ Hero page -->
+    <main align="center">
+        <h1>Cat Page</h1>
+        <section>
+            <p>See More <a href="https://unsplash.com/s/photos/cute-cat" target="_blank">Cat photos</a> in our gallery.</p>
+        </section>
+        <section>
+            <img src="/images/cat1.jpg" alt="this is a cat image">
+        </section>
+        <section id="section1">
+            <h3>Types Of CATS:</h3>
+            <OL align="center">
+                <ul align="left">1.Wild Cats</ul>
+                <ul align="right">2.Domestic Cats</ul>
+            </OL>
+            <img src="/images/wild cats.jpg" alt="wild cats" align="left">
+            <img src="/images/pet cats.jpg" alt="pet cats" align="right">
+        </section>
+    </main>
+    <hr>
+    <section>
+        <h3>Food Source of cats</h3>
+        <ol type="A">
+            <li>Meat</li>
+            <li>Cat Food</li>
+            <li>Fish</li>
+            <li>Rodents</li>  
+        </ol>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="section2">
+        <h3> BIG CATS in action</h3>
+        <img src="/images/lion.jpg" alt="KING of the jungle" height="200px">
+        <img src="/images/tiger.jpg" alt="tiger" height="200px" width="300px">
+        <!-- <img src="/images/BG1.jpg" alt="panther" height="200px"> -->
+        <img src="/images/cheetah.jpg" alt="cheetah" height="200px">
+    </section>
+    <br><hr>
+
+
+    <!--Form is used here-->
+    <section id="section3">
+        <h2>Cat Form</h2>
+        <form action="/contact-me" target="_blank" method="get">
+            <fieldset>
+            <legend>Have u seen any BIG Cats?</legend>
+            <input type="radio" id="Yes" name="option"><label for="Yes">YES</label>
+            <input type="radio" id="No" name="option"><label for="No" >No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Do you want to go to a safari to see them ?</legend>
+                <input type="radio" id="one" name="option1"><label for="one">Definately</label>
+                <input type="radio" id="two" name="option1"><label for="two"> Not sure</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite wild cat?</legend>
+                <label for="lion"><input type="checkbox" name="big cat" id="lion">Lion</label>
+                <label for="tiger"><input type="checkbox" name="big cat" id="tiger">Tiger</label>
+                <label for="cheetah"><input type="checkbox" name="big cat" id="cheetah">Cheetah</label>
+                <label for="Other">Other: <input type="checkbox" id="other"></label><select name="big cat" id="other">
+                    <option value="Leopard">Leopard</option>
+                    <option value="Panther">Panther</option>
+                    <option value="Jaguar">Jaguar</option>
+                    <option value="Lynx">Lynx</option>
+                    <option value="Bengal Tiger">Bengal Tiger</option>
+                    <option value="Snow Leopard"> Snow Leopard</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Do You have a pet cat?</legend>
+                <label for="pet cat">Yes</label><input type="radio" id="pet cat" name="option2">
+                <label for="pet_cat">NO</label><input type="radio" id="pet_cat" name="option2">
+            </fieldset>
+            <label for="name">IF yes what is its name?</label><br><input type="text" id="name">
+            <br>
+            <input type="Submit" value="Submit"> 
+        </form>
+    </section>
+    <hr>
+
+    <section id="section4">
+        <h3>Tiger Reserves in INDIA</h3>
+        <ol type="1">
+            <li>Pench Tiger Reserve <a href="https://www.penchnationalpark.com/" target="_blank">Learn More</a></li>
+            <li>Corbett Tiger Reserve <a href="https://www.corbettnationalpark.in/" target="_blank">Learn More</a></li>
+            <li>Sahyadri Tiger Reserve <a href="https://www.sahyadritigers.org/" target="_blank">Learn More</a></li>
+        </ol>
+    </section>
+    <hr>
+
+
+    <!--This is The footer-->
+    <footer>
+        <h5>For More Information:</h5>
+        <label for="info">Visit:</label><a href="#">www.ilovecats.com</a><br><br>
+       <Label>Copyright:-</Label><a href="#">DCDIUM.COM</a>
+    </footer>
+
+</body>
+</html>
